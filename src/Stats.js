@@ -16,7 +16,7 @@ function Stats() {
         .onSnapshot(snapshot => {
             let promises = [];
             let tempData = [];
-        snapshot.docs.map((doc) => {
+            snapshot.docs.map((doc) => {
             promises.push(
                 getStocksData(doc.data().ticker)
                 .then((res) => {
@@ -44,7 +44,6 @@ function Stats() {
     useEffect(()=>{
         let tempStocksData = []
         const stocksList = ["AAPL", "MSFT", "TSLA", "FB", "BABA", "UBER", "DIS", "SBUX"];
-
         let promises = [];
         getMyStocks();
         stocksList.map((stock) => {
