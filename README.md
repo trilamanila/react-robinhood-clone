@@ -1,70 +1,112 @@
-# Getting Started with Create React App
+# Robinhood Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Project Image](public/demo.png)
 
-## Available Scripts
+> Robinhood clone live demo here (https://robinhood-a490a.web.app/)
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+### Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Description](#description)
+- [How To Use](#how-to-use)
+- [References](#references)
+- [License](#license)
+- [Author Info](#author-info)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
+## Description
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Robinhood clone was created for learning purposes to better understand React. Real time live demo deployed with Firebase. Stocks data is pulled from Finhub Trading API. Flexbox and BEM syntax was used for styling compenents. 
 
-### `yarn build`
+#### Technologies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- Firebase
+- CSS
+- HTML
+- Node
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- "@material-ui/core": "^4.11.1",
+- "@material-ui/icons": "^4.9.1",
+- "@reactchartjs/react-chart.js": "^1.0.0-rc.3",
+- "@testing-library/jest-dom": "^5.11.4",
+- "@testing-library/react": "^11.1.0",
+- "@testing-library/user-event": "^12.1.10",
+- "axios": "^0.21.1",
+- "chart.js": "^2.9.4",
+- "firebase": "^8.2.3",
+- "react": "^17.0.1",
+- "react-chartjs-2": "^2.11.1",
+- "react-dom": "^17.0.1",
+- "react-scripts": "4.0.1",
+- "web-vitals": "^0.2.4"
 
-### `yarn eject`
+[Back To The Top](#robinhood-clone)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## How To Use
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+#### Installation
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- `git clone https://github.com/trilamanila/robinhood`
+- `npm install`
 
-## Learn More
+#### API Reference
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```Javascript
+const firebaseApp = firebase.initializeApp(firebaseConfig);
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+const db = firebaseApp.firestore();
 
-### Code Splitting
+const BASE_URL = "https://finnhub.io/api/v1/quote";
+```
+[Back To The Top](#robinhood-clone)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## References
+[Back To The Top](#robinhood-clone)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Twitter - [@trilamanila](https://twitter.com/trilamanila)
+- Website - [Trilamanila](https://trilamanila.com)
+---
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+MIT License
 
-### Advanced Configuration
+Copyright (c) [2021] [Joncin Picol]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### Deployment
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-### `yarn build` fails to minify
+[Back To The Top](#robinhood-clone)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## Author Info
+
+- Twitter - [@trilamanila](https://twitter.com/trilamanila)
+- Website - [Trilamanila](https://trilamanila.com)
+
+[Back To The Top](#robinhood-clone)
