@@ -65,13 +65,13 @@ function Stats() {
 
     return (
         <div className="stats">
-            <div className="stats_container">
-                <div className="stats_header stats_lists">
+            <div className="stats__container">
+                <div className="stats__header stats__lists">
                     <p>Stocks</p>
                 </div>
-            <div className="stats_content">
+            <div className="stats__content">
             </div>
-            <div className="stats_rows">
+            <div className="stats__rows">
                     {myStocks.map((stock) => (
                         <StatsRow 
                         key={stock.data.ticker}
@@ -81,11 +81,11 @@ function Stats() {
                         price={stock.info.c}
                         />
                     ))}
-                <div className="stats_header stats-list">
+                <div className="stats__header stats-list">
                     <p>Lists</p>
                 </div>
-            <div className="stats_content">
-                <div className="stats_rows">
+            <div className="stats__content">
+                <div className="stats__rows">
                     {stocksData.map((stock) => (
                         <StatsRow 
                             key={stock.name}

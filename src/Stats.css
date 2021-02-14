@@ -6,7 +6,7 @@
     color: white;
 }
 
-.stats_container {
+.stats__container {
     flex-direction: column;
     flex: 1;
     background-color: #1E2023;
@@ -14,7 +14,7 @@
     border: 1px solid #42494D;
 }
 
-.stats_header {
+.stats__header {
     display: flex;
     font-size: 16px;
     align-items: center;
@@ -24,6 +24,6 @@
     font-weight: 500;
 }
 
-.stats_lists {
+.stats__lists {
     border-top: 1px solid #42494D;
 }
