@@ -18,7 +18,7 @@
 
 ## Description
 
-Robinhood clone was created for learning purposes to better understand React. Real time live demo deployed with Firebase. Stocks data is pulled from Finhub Trading API. Flexbox and BEM syntax was used for styling compenents. 
+Robinhood clone was created for learning purposes to better understand React. Real time live demo deployed with Firebase. Stocks data is pulled from Finhub Trading API. Flexbox and BEM class name convention was used for styling compenents. 
 
 #### Technologies
 
@@ -26,7 +26,6 @@ Robinhood clone was created for learning purposes to better understand React. Re
 - Firebase
 - CSS
 - HTML
-- Node
 
 #### Dependencies
 
