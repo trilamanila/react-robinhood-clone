@@ -18,7 +18,7 @@
 
 ## Description
 
-Robinhood clone was created for learning purposes to better understand React. Real time live demo deployed with Firebase. Stocks data is pulled from Finhub Trading API. Flexbox and BEM class name convention was used for styling compenents. 
+Robinhood clone was created for learning purposes to better understand React. Real time live demo deployed with Firebase. Stocks data is pulled from Finhub Trading API. Flexbox and BEM class name convention was used for styling compenents.
 
 #### Technologies
 
@@ -53,6 +53,7 @@ Robinhood clone was created for learning purposes to better understand React. Re
 #### Installation
 
 - `git clone https://github.com/trilamanila/robinhood`
+- `cd robinhood`
 - `npm install`
 
 #### API Reference
@@ -64,22 +65,25 @@ const db = firebaseApp.firestore();
 
 const BASE_URL = "https://finnhub.io/api/v1/quote";
 ```
+
 [Back To The Top](#robinhood-clone)
 
 ---
 
 ## References
+
 [Back To The Top](#robinhood-clone)
 
 - Twitter - [@trilamanila](https://twitter.com/trilamanila)
 - Website - [Trilamanila](https://trilamanila.com)
+
 ---
 
 ## License
 
 MIT License
 
-Copyright (c) [2021] [Joncin Picol]
+Copyright (c) [2021][joncin picol]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
